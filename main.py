@@ -4,8 +4,8 @@ from online_tictactoe.game.player import Player
 
 
 def main():
-    player1 = Player("Lily")
-    player2 = Player("Hugo")
+    player1 = Player("Player1's name")
+    player2 = Player("Player2's name")
     board = create_board(3)
     game = create_random_game(player1, player2, board)
     game.start()
