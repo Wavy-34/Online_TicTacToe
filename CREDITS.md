@@ -22,25 +22,6 @@ __Icons__:
 - <img src="./Assets/svgs/united.svg" alt="United Kingdom flag icon" width="20" style="vertical-align:middle;"/> <a href="https://iconscout.com/icons/united" class="text-underline font-size-sm" target="_blank">United</a> on <a href="https://iconscout.com" class="text-underline font-size-sm">IconScout</a>
 
 __Fonts__:
-<style>
-  @font-face {
-    font-family: 'Arco';
-    src: url('./Assets/fonts/ARCO.ttf') format('truetype');
-  }
-  @font-face {
-    font-family: 'HugLove';
-    src: url('./Assets/fonts/Huglove.ttf') format('opentype');
-  }
-  .arco-text {
-    font-family: 'Arco', sans-serif;
-    font-size: 20px;
-  }
 
-  .hug-love-text {
-    font-family: 'Huglove', sans-serif;
-    font-size: 20px;
-  }
-</style>
-
-- <a href="https://www.dafont.com/arco.font"><span class="arco-text">Arco</span> </a><span class="arco-text">by</span> <a href="https://www.dafont.com/rafael-olivo.d7756"> <span class="arco-text">Rafael Olivio</span></a>
-- <a href="https://www.dafont.com/huglove.font"><span class="hug-love-text">Huglove</span> </a><span class="hug-love-text">by</span> <a href="https://www.dafont.com/khurasan.d5849"> <span class="hug-love-text">Khurasan</span></a>
+- <a href="https://www.dafont.com/arco.font">Arco</a> by <a href="https://www.dafont.com/rafael-olivo.d7756">Rafael Olivio</a>
+- <a href="https://www.dafont.com/huglove.font">Huglove</a> by <a href="https://www.dafont.com/khurasan.d5849">Khurasan</a>
