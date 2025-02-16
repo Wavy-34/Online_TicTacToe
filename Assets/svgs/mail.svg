@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="Mail">
+  <g color="#000" font-family="sans-serif" font-weight="400" fill="#000000" class="color000000 svgShape">
+    <path fill="#4e4187" d="m.621 3-.012.016H.527a.5.5 0 0 0-.5.5v.232L0 3.783l.027.022V12.5a.5.5 0 0 0 .5.5h14.97a.5.5 0 0 0 .501-.5V3.809L16 3.807l-.002-.002v-.29a.5.5 0 0 0-.502-.5H.641L.62 3zm1.281 1.016H14.13l-6.11 4.847-6.117-4.847zm-.877.582 6.686 5.297a.5.5 0 0 0 .62 0l6.665-5.293V12H1.026V4.598z" overflow="visible" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;block-progression:tb;isolation:auto;mix-blend-mode:normal" transform="translate(0 .002)" class="color249fe6 svgShape"></path>
+    <path fill="#e3c0d3" d="M1.902 4.016H14.13l-6.11 4.847zm-.877.582 6.686 5.297a.5.5 0 0 0 .62 0l6.665-5.293V12H1.026Z" overflow="visible" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;block-progression:tb;isolation:auto;mix-blend-mode:normal" transform="translate(0 .002)" class="colorc2e4f8 svgShape"></path>
+  </g>
+</svg>
