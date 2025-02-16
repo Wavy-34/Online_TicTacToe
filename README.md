@@ -1,7 +1,7 @@
 # Online Tic Tac Toe
 An online version of the game Tic Tac Toe. The game itself is coded in python, the webiste will use HTML-CSS-JAVASCRIPT.
 
-# How to play:
+## How to play:
 For now the only way to play is in the terminal in Local. 
 To do so:
 - Edit the main.py file to put names
