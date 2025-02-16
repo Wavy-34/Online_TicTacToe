@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from online_tictactoe.game.player_place import PlayerPlace
+from online_tictactoe.schemas.player_place import PlayerPlace
 
 
 @dataclass

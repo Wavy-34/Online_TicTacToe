@@ -1,6 +1,7 @@
 from enum import Enum, auto
 
-class WinnerType(Enum):
+
+class CellState(Enum):
+    EMPTY = auto()
     PLAYER1 = auto()
     PLAYER2 = auto()
-    DRAW = auto()
