@@ -1,0 +1,62 @@
+/* The side navigation menu */
+.sidebar {
+    height: 100%;
+    width: 100px;  /* Initial width */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #EEF5DB;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: width 0.3s; /* Smooth slide effect */
+}
+
+/* Expand sidebar on hover */
+.sidebar:hover {
+    width: 270px;
+}
+
+/* The navigation menu links */
+.sidebar a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    transition: 0.3s;
+    color: black;
+}
+
+/* Prevent icon shrinkage by keeping fixed size */
+.menu-item img {
+    width: 50px;  /* Keep icon size fixed */
+    height: auto;  /* Maintain aspect ratio */
+    margin-right: 10px;
+}
+
+.menu-text {
+    opacity: 0;
+    white-space: nowrap;
+    transition: opacity 0.3s;
+    overflow: hidden;
+}
+
+/* Show text on hover */
+.sidebar:hover .menu-text {
+    opacity: 1;
+}
+
+.top-section {
+    flex: 1;
+}
+
+.bottom-section {
+    margin-top: auto;
+}
+
+/* On smaller screens */
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
