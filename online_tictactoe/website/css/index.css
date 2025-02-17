@@ -1,3 +1,34 @@
+/* Default light theme */
+:root {
+    --bg-color: #EEF5DB;
+    --hover-bg-color: #cfe98a;
+    --text-color: black;
+    --primary-color: #4e4187;
+    --secondary-color: #e3c0d3;
+}
+
+/* Dark theme */
+body.dark-mode {
+    --bg-color: #002A22;
+    --hover-bg-color: #001610;
+    --primary-color: #e3c0d3;
+    --secondary-color: #4e4187;
+    --text-color: white;
+}
+
+.switch-language-btn,
+.switch-theme-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+}
+
+.switch-language-btn:focus,
+.switch-theme-btn:focus {
+    outline: none;
+}
 /* The side navigation menu */
 .sidebar {
     height: 100%;
@@ -6,7 +37,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #EEF5DB;
+    background-color: var(--bg-color);
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
@@ -15,26 +46,46 @@
 
 /* Expand sidebar on hover */
 .sidebar:hover {
-    width: 270px;
+    width: 260px;
 }
 
 /* The navigation menu links */
+.sidebar button,
 .sidebar a {
+    font-size: 24px; 
+    color: var(--text-color);
     text-decoration: none;
     display: flex;
     align-items: center;
     padding: 20px;
     transition: 0.3s;
-    color: black;
+}
+
+.menu-item:hover{
+    background-color: var(--hover-bg-color);
 }
 
 /* Prevent icon shrinkage by keeping fixed size */
-.menu-item img {
-    width: 50px;  /* Keep icon size fixed */
-    height: auto;  /* Maintain aspect ratio */
+.menu-item svg {
     margin-right: 10px;
+    width: 50px;              /* SVG width */
+    height: 50px;  
+    flex-shrink: 0;           /* SVG height */
 }
 
+.menu-item img{
+    width: 50px;
+    margin-right: 10px;
+    width: 50px;              /* SVG width */
+    height: 40px;  
+    flex-shrink: 0;
+}
+.primary{
+    fill: var(--primary-color)
+}
+.secondary{
+    fill:var(--secondary-color)
+}
 .menu-text {
     opacity: 0;
     white-space: nowrap;
@@ -59,4 +110,8 @@
 @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
+}
+
+.layout {
+    display: flex;
 }
